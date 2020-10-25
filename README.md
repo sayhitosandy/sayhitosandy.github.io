@@ -1,1 +1,0 @@
-# sayhitosandy.github.io

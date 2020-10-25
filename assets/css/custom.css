@@ -1,19 +1,18 @@
 body {
-font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Georgia", Arial, sans-serif;
 }
-.sidebar{
+
+.sidebar {
 	background: #2b2b2b;
 }
 
-.sidebar p{
+.sidebar p {
 	font-size: 28px;
     font-weight: 300;
     color: #fff;
     margin: 20px 0 10px 0;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Georgia", Arial, sans-serif;
 }
-
-
 
 .profile {
 	text-align: center;
@@ -21,7 +20,7 @@ font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 	position: relative;
 }
 
-.profile .portrate {
+.profile .portrait {
     background-image: url("../img/2015085.jpg");
     width: 125px;
     margin: 0 auto;
@@ -38,7 +37,7 @@ font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
     font-weight: 300;
     color: #fff;
     margin: 20px 0 10px 0;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Georgia", Arial, sans-serif;
 }
 
 .profile .title h3 {
@@ -48,8 +47,8 @@ font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
     margin: 0px 0 10px 0;
 }
 
-.sidebar-wrapper{
-	    position: relative;
+.sidebar-wrapper {
+	position: relative;
     max-height: calc(100vh - 75px);
     min-height: 100%;
     overflow: auto;
@@ -63,7 +62,7 @@ font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
     /*color: #000000;*/
 }
 
-.image-responsive{
+.image-responsive {
 	max-width: 100%;
 	box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
 }
@@ -80,27 +79,28 @@ font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .no-margin-card {
 	margin: 0px;
 	margin-bottom: 5px;
 }
 
-hr{
+hr {
 	border: 0.5px solid #2b2b2b;
 	opacity: 0.2;
 	/*margin: 0px;*/
 	/*padding: 0px;*/
 }
 
-.header-title{
+.header-title {
 	text-align: center;
 }
 
-.false-clickable{
+.false-clickable {
 	cursor: default;
 }
 
-#hidden1 , #hidden0{
+#hidden1, #hidden0 {
     padding-top: 0px;
     max-height: 0px;
     overflow: hidden;
@@ -112,13 +112,13 @@ hr{
     padding-bottom: 0px;
 }
 /*
-#thebutton:hover{
+#thebutton:hover {
     background-color: red;
     max-height: 100px;
     transition: max-height 0.25s ease-in;
 }*/
 
-.helper_assets{
+.helper_assets {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -130,19 +130,19 @@ hr{
 
 }
 
-.helper_assets a{
+.helper_assets a {
     color: #9b9b9b;
-padding: 5px 15px;
-float: right;
-font-size: 18px;
+    padding: 5px 15px;
+    float: right;
+    font-size: 18px;
 }
 
-.helper_assets a:hover{
+.helper_assets a:hover {
     background-color: #ab47bc;
     color: #ffffff;
 }
 
-.dropdown-item{
+.dropdown-item {
     display: block;
     padding:10px;
 }

@@ -8,15 +8,15 @@ body {
 
 .sidebar p {
 	font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
     margin: 20px 0 10px 0;
-    font-family: "Georgia", Arial, sans-serif;
+    font-family: "Calibri", "Georgia", Arial, sans-serif;
 }
 
 .profile {
 	text-align: center;
-	padding: 30px 10px;
+	padding: 30px 10px 0px 10px;
 	position: relative;
 }
 
@@ -25,7 +25,7 @@ body {
     width: 125px;
     margin: 0 auto;
     height: 125px;
-    border-radius: 50%;
+    border-radius: 10%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -33,18 +33,18 @@ body {
 }
 
 .profile .title h2 {
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: 500;
     color: #fff;
-    margin: 20px 0 10px 0;
-    font-family: "Georgia", Arial, sans-serif;
+    margin: 10px 0 0 0;
+    font-family: "Perpetua", "Rockwell", "Helvetica", "Georgia", "Times New Roman", "Arial", sans-serif;
 }
 
 .profile .title h3 {
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 500;
     color: #aaa;
-    margin: 0px 0 10px 0;
+    margin: 0px 0 2px 0;
 }
 
 .sidebar-wrapper {
@@ -54,7 +54,7 @@ body {
     overflow: auto;
     width: 260px;
     z-index: 4;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 .sidebar-wrapper::-webkit-scrollbar {

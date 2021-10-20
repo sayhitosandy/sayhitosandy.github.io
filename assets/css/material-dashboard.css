@@ -668,7 +668,7 @@ h2.title {
     position: relative;
     height: calc(100vh - 75px);
     overflow: auto;
-    width: 260px;
+    width: 280px;
     z-index: 4;
 }
 
@@ -747,16 +747,16 @@ h2.title {
 .sidebar .nav p,
 .off-canvas-sidebar .nav p {
     margin: 0;
-    line-height: 30px;
+    line-height: 10px;
     font-size: 14px;
 }
 
 .sidebar .nav i,
 .off-canvas-sidebar .nav i {
-    font-size: 24px;
+    font-size: 20px;
     float: left;
     margin-right: 15px;
-    line-height: 30px;
+    line-height: 10px;
     width: 30px;
     text-align: center;
     color: #a9afbb;

@@ -8,10 +8,10 @@ body {
 
 .sidebar p {
 	font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
     margin: 20px 0 10px 0;
-    font-family: "Georgia", Arial, sans-serif;
+    font-family: "Calibri", "Georgia", Arial, sans-serif;
 }
 
 .profile {
@@ -33,16 +33,16 @@ body {
 }
 
 .profile .title h2 {
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: 500;
     color: #fff;
     margin: 10px 0 0 0;
-    font-family: "Georgia", Arial, sans-serif;
+    font-family: "Perpetua", "Rockwell", "Helvetica", "Georgia", "Times New Roman", "Arial", sans-serif;
 }
 
 .profile .title h3 {
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 500;
     color: #aaa;
     margin: 0px 0 5px 0;
 }

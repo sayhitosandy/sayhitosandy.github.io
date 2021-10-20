@@ -747,7 +747,7 @@ h2.title {
 .sidebar .nav p,
 .off-canvas-sidebar .nav p {
     margin: 0;
-    line-height: 10px;
+    line-height: 15px;
     font-size: 14px;
 }
 
@@ -756,7 +756,7 @@ h2.title {
     font-size: 20px;
     float: left;
     margin-right: 15px;
-    line-height: 10px;
+    line-height: 15px;
     width: 30px;
     text-align: center;
     color: #a9afbb;
@@ -2453,6 +2453,7 @@ h6,
 
 a {
     color: #008000;
+    word-break: break-all;
 }
 
 a:hover,

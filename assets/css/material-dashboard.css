@@ -713,7 +713,7 @@ h2.title {
 
 .sidebar .nav,
 .off-canvas-sidebar .nav {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .sidebar .nav li>a,
@@ -4951,7 +4951,10 @@ fieldset[disabled] .navbar .btn-link:focus {
 }
 
 footer {
-    padding: 15px 0;
+    padding: 0 0;
+    font-size: 12px;
+    color: #aaaaaa;
+    font-family: "Calibri", "Georgia", Arial, sans-serif;
 }
 
 footer ul {

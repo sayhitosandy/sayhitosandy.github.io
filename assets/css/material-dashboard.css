@@ -6372,7 +6372,7 @@ footer .btn {
 }
 
 
-/*          Changes for small display      */
+/*          Changes for small display  (increase max-width to always hide sidebar)     */
 
 @media (max-width: 991px) {
     .sidebar {

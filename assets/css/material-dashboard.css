@@ -2431,7 +2431,7 @@ h6,
 .h2,
 .h3,
 .h4 {
-    font-family: "Perpetua", "Rockwell", "Helvetica", "Georgia", "Times New Roman", "Arial", sans-serif;
+    font-family: "Perpetua", "Georgia", "Times New Roman", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     line-height: 1.5em;
 }

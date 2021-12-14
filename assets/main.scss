@@ -1,0 +1,112 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap');
+
+// Our variables
+// $base-font-family: Bitter, "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
+$base-font-family: 'Open Sans', sans-serif;
+$monospace-font-family: Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
+$base-font-size:   15px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+// $brand-color:      #2568ba;
+// $brand-color:      #FF4602;
+$brand-color:      #ce3700;
+
+
+$grey-color:       #757575;
+$grey-color-light: lighten($grey-color, 45%);
+$grey-color-dark:  darken($grey-color, 20%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// whiteglass also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import partials from the `whiteglass` theme.
+@import "whiteglass";
+
+
+// Custom styles
+.profile {
+	margin-bottom: 30px;
+
+	.profile-block {
+		font-family: 'Lato', sans-serif;
+	    font-size: 15px;
+	    font-weight: 400;
+
+	    .profile-name {
+	    	font-family: 'Poppins', sans-serif;
+	    	margin-bottom: 20px;
+	    	font-size: 42px;
+	    	font-weight: 500;
+	    }
+
+	    .profile-position {
+	    	font-family: 'Open Sans', sans-serif;
+	    	font-size: 15px;
+	    }
+
+		.profile-email {
+			font-family: 'Inconsolata', monospace;
+			font-weight: 300;
+			font-size: 16px;
+		}
+
+		.profile-image {
+			border-radius: 50%;
+	    	// border:10px solid red;
+		}
+
+		.interest {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 15px;
+			margin-top: 20px;
+		}
+	}
+
+	.news-block {
+		margin-top: 20px;
+	}
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.post-title {
+  font-size: 28px;
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 20px;
+  }
+}

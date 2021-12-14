@@ -8,33 +8,36 @@ layout: home
 <div class="profile">
     <div class="row profile-block">
         <div class="col-md-7 vcenter">
-            <h1 class="profile-name">SANIDHYA SINGAL</h1>
-
+            <h1 class="profile-name">{{ site.data.about.author.name | upcase }}</h1>
             <p>
-                <span class="profile-position">Senior Machine Learning Engineer<br>
-                    <a href="https://www.linkedin.com/company/wynk-limited/">Airtel Digital Limited, India</a>
+                <span class="profile-position">{{ site.data.about.current_organization.position }}<br>
+                    <a href="{{ site.data.about.current_organization.url }}">{{ site.data.about.current_organization.name }}</a>
                 </span>
                 <br>
-                <span class="profile-email" style="vertical-align: middle;"><a href="mailto:sanidhyasingal@gmail.com">sanidhyasingal@gmail.com</a></span>
+                <span class="profile-email" style="vertical-align: middle;"><a href="mailto:{{ site.data.about.author.email }}">{{ site.data.about.author.email }}</a></span>
             </p>
             <p>
-                <a href="https://drive.google.com/file/d/1_u9PBtSAmGP9jSrosGPvD8EKIi4ZcFk-/view?usp=sharing" target="_blank">[CV]</a>
+                <a href="{{ site.data.about.author.resume_url }}" target="_blank">[CV]</a>
             </p>
 
         </div>
         <div class="col-md-4 hidden-xs hidden-sm vcenter">
-            <img src="/resources/img/profile.jpg" width="90%" class="profile-image center-block" alt="Profile Image"/>
+            <img src="{{ site.data.about.author.profile_picture }}" width="90%" class="profile-image center-block" alt="Profile Image"/>
         </div>
     </div>
     <div class="row profile-block">
         <div class="col-md-12 col-lg-12 interest">
-            <p><strong>Research</strong> &nbsp; I'm interested in Machine Learning.</p>
+            <p><strong>Research Statement</strong>
+                &nbsp; I'm particularly interested in <em>Artificial Intelligence</em> and <em>Data Science</em>. I enjoy learning and working on projects related to
+                    <em>Machine Learning</em>, <em>Natural Language Processing</em>, <em>Information Retrieval</em> and <em>Recommender Systems</em>. I firmly believe
+                that research outcomes should be equitable to all sections of society, and intend to contribute to the same using novel artificial intelligence-based solutions.
+            </p>
         </div>
     </div>
     <hr />
     <div class="row news-block">
         <div class="col-md-12 col-lg-12">
-            <p><strong>News!</strong> &nbsp; A paper accepted at ACM RecSys 2021.</p>
+            <p style="display:inline"><strong>News!</strong> &nbsp; <p class="post-meta" style="display:inline"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ "2021-07-30" | date: "%b %-d, %Y" }}</time></p> A paper accepted at ACM RecSys 2021.</p>
         </div>
     </div>
 </div>

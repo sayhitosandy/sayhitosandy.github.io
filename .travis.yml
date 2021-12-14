@@ -35,4 +35,4 @@ deploy:
   local_dir: _site
   target_branch: gh-pages
   on:
-    branch: master
+    branch: main

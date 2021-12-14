@@ -1,5 +1,8 @@
 title: "Sanidhya Singal"
 author: Sanidhya Singal
+description: Sanidhya Singal's webpage
+baseurl: "/"
+url: "https://sayhitosandy.github.io"
 lang: en
 timezone: IST
 exclude:
@@ -15,7 +18,7 @@ exclude:
 
 theme: jekyll-whiteglass
 plugins:
-  - jekyll-archives
+#  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
 
@@ -23,11 +26,11 @@ permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
 paginate: 5
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: category_archives
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layout: category_archives
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/

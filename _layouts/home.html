@@ -17,9 +17,9 @@ layout: default
         <header class="post-header">
             <h1 class="post-title">
                 {% if post.external-url %}
-                <a class="post-link" href="{{ post.external-url }}">{{ post.title | escape }} &rarr;</a>
+                <a class="post-link" href="{{ post.external-url }}" title="View {{ post.title }}">{{ post.title | escape }} &rarr;</a>
                 {% else %}
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                <a class="post-link" href="{{ post.url | relative_url }}" title="View {{ post.title }}">{{ post.title | escape }}</a>
                 {% endif %}
             </h1>
 
@@ -39,7 +39,7 @@ layout: default
         </div>
         {% if post.content contains site.excerpt_separator %}
         <p class="post-continue">
-            <a href="{{ post.url | relative_url }}">{% include i18n.html lang=lang value="morelink" default="Read on" %} &rarr;</a>
+            <a href="{{ post.url | relative_url }}" title="View all {{ post.title }}">{% include i18n.html lang=lang value="morelink" default="Read on" %} &rarr;</a>
         </p>
         {% endif %}
         </li>

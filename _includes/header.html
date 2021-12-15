@@ -11,7 +11,7 @@
                 {% else %}
                     {% assign url = link.url | relative_url %}
                 {% endif %}
-                <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+                <a class="page-link" href="{{ url }}" title="Go to {{ link.title | downcase }} page">{{ link.title }}</a>
             {% endfor %}
 
         </nav>

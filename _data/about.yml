@@ -1,8 +1,17 @@
 author:
   name: Sanidhya Singal
   email: sanidhyasingal@gmail.com
-  resume_url: https://drive.google.com/file/d/1_u9PBtSAmGP9jSrosGPvD8EKIi4ZcFk-/view?usp=sharing
+  resume: https://drive.google.com/file/d/1_u9PBtSAmGP9jSrosGPvD8EKIi4ZcFk-/view?usp=sharing
   profile_picture: /resources/img/profile.jpg
+  google_scholar: https://scholar.google.com/citations?hl=en&user=MSuelf8AAAAJ
+  github: https://github.com/sayhitosandy/
+  linkedin: https://www.linkedin.com/in/sanidhyasingal/
+  youtube: https://youtube.com/sanidhyasingal/
+  research_statement: >-
+    I'm particularly interested in <em>Artificial Intelligence</em> and <em>Data Science</em>. I enjoy learning and
+    working on projects related to <em>Machine Learning</em>, <em>Natural Language Processing</em>, <em>Information
+    Retrieval</em> and <em>Recommender Systems</em>. I firmly believe that research outcomes should be equitable to all
+    sections of society, and intend to contribute to the same using novel artificial intelligence-based solutions.
 current_organization:
   name: Airtel Digital Limited, India
   position: Senior Machine Learning Engineer

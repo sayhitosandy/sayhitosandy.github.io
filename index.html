@@ -11,13 +11,13 @@ layout: home
             <h1 class="profile-name">{{ site.data.about.author.name | upcase }}</h1>
             <p>
                 <span class="profile-position">{{ site.data.about.current_organization.position }}<br>
-                    <a href="{{ site.data.about.current_organization.url }}">{{ site.data.about.current_organization.name }}</a>
+                    <a href="{{ site.data.about.current_organization.url }}" title="Open Organization Website">{{ site.data.about.current_organization.name }}</a>
                 </span>
                 <br>
-                <span class="profile-email" style="vertical-align: middle;"><a href="mailto:{{ site.data.about.author.email }}">{{ site.data.about.author.email }}</a></span>
+                <span class="profile-email" style="vertical-align: middle;"><a href="mailto:{{ site.data.about.author.email }}" title="Contact Sanidhya via e-mail">{{ site.data.about.author.email }}</a></span>
             </p>
             <p>
-                <a href="{{ site.data.about.author.resume_url }}" target="_blank">[CV]</a>
+                <a href="{{ site.data.about.author.resume_url }}" target="_blank" title="View Sanidhya's Curriculum Vitae">[CV]</a>
             </p>
 
         </div>
@@ -27,7 +27,7 @@ layout: home
     </div>
     <div class="row profile-block">
         <div class="col-md-12 col-lg-12 interest">
-            <p><strong>Research Statement</strong>
+            <p style="text-align: justify"><strong>Research Statement</strong>
                 &nbsp; I'm particularly interested in <em>Artificial Intelligence</em> and <em>Data Science</em>. I enjoy learning and working on projects related to
                     <em>Machine Learning</em>, <em>Natural Language Processing</em>, <em>Information Retrieval</em> and <em>Recommender Systems</em>. I firmly believe
                 that research outcomes should be equitable to all sections of society, and intend to contribute to the same using novel artificial intelligence-based solutions.
@@ -40,4 +40,5 @@ layout: home
             <p style="display:inline"><strong>News!</strong> &nbsp; <p class="post-meta" style="display:inline"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ "2021-07-30" | date: "%b %-d, %Y" }}</time></p> A paper accepted at ACM RecSys 2021.</p>
         </div>
     </div>
+    <hr />
 </div>

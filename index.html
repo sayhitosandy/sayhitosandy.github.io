@@ -17,7 +17,7 @@ layout: home
                 <span class="profile-email" style="vertical-align: middle;"><a href="mailto:{{ site.data.about.author.email }}" title="Contact Sanidhya via e-mail">{{ site.data.about.author.email }}</a></span>
             </p>
             <p>
-                <a href="{{ site.data.about.author.resume_url }}" target="_blank" title="View Sanidhya's Curriculum Vitae">[CV]</a>
+                <a href="{{ site.data.about.author.resume }}" target="_blank" title="View Sanidhya's Curriculum Vitae">[CV]</a>
             </p>
 
         </div>
@@ -28,9 +28,7 @@ layout: home
     <div class="row profile-block">
         <div class="col-md-12 col-lg-12 interest">
             <p style="text-align: justify"><strong>Research Statement</strong>
-                &nbsp; I'm particularly interested in <em>Artificial Intelligence</em> and <em>Data Science</em>. I enjoy learning and working on projects related to
-                    <em>Machine Learning</em>, <em>Natural Language Processing</em>, <em>Information Retrieval</em> and <em>Recommender Systems</em>. I firmly believe
-                that research outcomes should be equitable to all sections of society, and intend to contribute to the same using novel artificial intelligence-based solutions.
+                &nbsp; {{ site.data.about.author.research_statement }}
             </p>
         </div>
     </div>

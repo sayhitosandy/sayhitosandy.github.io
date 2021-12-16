@@ -68,6 +68,12 @@
   float: right;
 }
 
+.org-image {
+  position: relative;
+  margin-top: 10px;
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
 .desc {
   margin: 1em 0.75em 0 0;
   font-size: 0.77777em;
@@ -115,6 +121,18 @@
     width: 100%;
 
     text-align: center;
+  }
+
+  .org-image {
+    position: relative;
+    margin: 1em 0 0 0;
+    background: rgb(245,245,245);
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    margin-bottom: -20px;
+
+    z-index: 15;
   }
 
   .desc {

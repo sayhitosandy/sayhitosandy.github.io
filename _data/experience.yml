@@ -5,15 +5,21 @@ experiences:
     time: June 2019 – Present
     title: Senior Machine Learning Engineer
     category: work
+    website: https://www.linkedin.com/company/wynk-limited/
+    image: /resources/img/adl.jpg
 
   - place: Graphics Research Group
     location: New Delhi, Delhi, India
     time: Dec 2017 – July 2018
     title: Undergraduate Researcher
     category: work
+    website: https://graphics.iiitd.edu.in/
+    image: /resources/img/grg.png
 
-  - place: Indraprastha Institute of <br> Information Technology <br> Delhi
+  - place: Indraprastha Institute of Information Technology Delhi
     location: New Delhi, Delhi, India
     time: July 2015 – May 2019
     title: B.Tech. Computer Science and Engineering
     category: school
+    website: https://iiitd.ac.in/
+    image: /resources/img/iiitd.jpg

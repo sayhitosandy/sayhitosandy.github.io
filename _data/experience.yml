@@ -1,8 +1,15 @@
 experiences:
+  - place: University of California San Diego
+    location: San Diego, California, USA
+    time: September 2022 - Present
+    title: M.S. Computer Science and Engineering
+    category: school
+    website: https://ucsd.edu/
+    image: /resources/img/ucsd.jpg
 
   - place: Airtel Digital Limited
     location: Gurugram, Haryana, India
-    time: June 2019 – Present
+    time: June 2019 – June 2022
     title: Senior Machine Learning Engineer
     category: work
     website: https://www.linkedin.com/company/wynk-limited/

@@ -7,7 +7,7 @@ description: >-
 baseurl: "/"
 url: "https://sayhitosandy.github.io"
 lang: en
-timezone: IST
+timezone: America/Los_Angeles
 exclude:
   - Gemfile
   - Gemfile.lock

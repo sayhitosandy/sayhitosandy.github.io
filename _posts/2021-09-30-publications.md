@@ -2,8 +2,13 @@
 layout: post
 ---
 
-1. Sanidhya Singal, Piyush Singh, and Manjeet Dahiya. 2021. <b>Automatic Collection Creation and Recommendation.</b> In <i>Fifteenth ACM Conference on Recommender Systems</i> (<i>RecSys '21</i>). Association for Computing Machinery, New York, NY, USA, 633–638. DOI:<a target="_blank" href="https://doi.org/10.1145/3460231.3478865" title="View Publication">10.1145/3460231.3478865 </a>
+1. Singal, S. et al. 2021. <b>Automatic Collection Creation and Recommendation.</b> In <i>Fifteenth ACM Conference on
+   Recommender Systems (RecSys '21), Amsterdam, Netherlands.</i> Association for Computing Machinery, New York, NY, USA,
+   633–638. DOI: <a target="_blank" href="https://doi.org/10.1145/3460231.3478865" title="View Publication">
+   10.1145/3460231.3478865 </a>
 <!-- more -->
+   > <div style="text-align: justify"> We present a collection recommender system that can automatically create and recommend collections of items at a user level. Unlike regular recommender systems, which output top-N relevant items, a collection recommender system outputs collections of items such that the items in the collections are relevant to a user, and the items within a collection follow a specific theme. Our system builds on top of the user-item representations learnt by item recommender systems. We employ dimensionality reduction and clustering techniques along with intuitive heuristics to create collections with their ratings and titles. We test these ideas in a real-world setting of music recommendation, within a popular music streaming service. We find that there is a 2.3x increase in recommendation-driven consumption when recommending collections over items. Further, it results in effective utilization of real estate and leads to recommending a more and diverse set of items. To our knowledge, these are first of its kind experiments at such a large scale.</div>
 
-2. Sanidhya Singal, and Ojaswa Sharma. 2018. <b>Procedural Creation of VR Walkthroughs.</b> B.Tech. Project Report. IIIT-Delhi, India, 29 pages. <a target="_blank" href="https://repository.iiitd.edu.in/xmlui/handle/123456789/756" title="View Publication"> https://repository.iiitd.edu.in/xmlui/handle/123456789/756 </a> 
-
+2. Singal, S. et al. 2018. <b>Procedural Creation of VR Walkthroughs.</b> B.Tech. Project Report. IIIT-Delhi, India, 29
+   pages. <a target="_blank" href="https://repository.iiitd.edu.in/xmlui/handle/123456789/756" title="View Publication"> https://repository.iiitd.edu.in/xmlui/handle/123456789/756 </a>
+   > <div style="text-align: justify"> Virtual Reality Walkthroughs provide an immersive experience of a real place. Through this project, we automate the creation of VR walkthroughs for large spaces, with the case study of IIIT-Delhi's campus. Our project involves campus terrain 3D mapping and reconstruction, along with optimal drone path planning to cover campus terrain, autonomously. The goal is to minimize the manual intervention throughout the pipeline, along with proposing several improvements in coverage path planning and polygon decomposition.</div>

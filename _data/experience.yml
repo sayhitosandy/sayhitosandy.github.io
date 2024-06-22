@@ -1,4 +1,12 @@
 experiences:
+  - place: Laboratory for Emerging Intelligence, UC San Diego
+    location: San Diego, California, USA
+    time: June 2024 - Present
+    title: AI Application Programmer
+    category: work
+    website: https://lei.ucsd.edu/
+    image: /resources/img/cse_ucsd.png
+
   - place: University of California San Diego
     location: San Diego, California, USA
     time: Sept 2022 - June 2024
@@ -15,7 +23,7 @@ experiences:
     website: https://www.linkedin.com/company/airtel-digital/
     image: /resources/img/adl.jpg
 
-  - place: Graphics Research Group
+  - place: Graphics Research Group, IIIT Delhi
     location: New Delhi, Delhi, India
     time: Dec 2017 – July 2018
     title: Undergraduate Researcher

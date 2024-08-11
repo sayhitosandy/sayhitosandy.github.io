@@ -1,11 +1,19 @@
 experiences:
-  - place: Laboratory for Emerging Intelligence, UC San Diego
+  - place: University of California San Diego Health
     location: San Diego, California, USA
-    time: June 2024 - Present
+    time: August 2024 - Present
+    title: Machine Learning Engineer
+    category: work
+    website: https://www.rgabriel.ai/
+    image: /resources/img/jacobs_ucsdh.jpg
+
+  - place: Laboratory for Emerging Intelligence, University of California San Diego
+    location: San Diego, California, USA
+    time: June 2024 - August 2024
     title: AI Application Programmer
     category: work
     website: https://lei.ucsd.edu/
-    image: /resources/img/cse_ucsd.png
+    image: /resources/img/cse.jpg
 
   - place: University of California San Diego
     location: San Diego, California, USA
@@ -23,7 +31,7 @@ experiences:
     website: https://www.linkedin.com/company/airtel-digital/
     image: /resources/img/adl.jpg
 
-  - place: Graphics Research Group, IIIT Delhi
+  - place: Graphics Research Group, Indraprastha Institute of Information Technology Delhi
     location: New Delhi, Delhi, India
     time: Dec 2017 – July 2018
     title: Undergraduate Researcher

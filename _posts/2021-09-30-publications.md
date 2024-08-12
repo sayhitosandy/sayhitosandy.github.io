@@ -11,14 +11,15 @@ layout: post
             {{ publication.description }}
             <br>
         </div>
+    </div>
+    <div style="margin-top: 10px; margin-left: 30px; text-align: justify;">
         {% if publication.image %}
-            <div style="flex: 3; padding-top: 5px; padding-left: 30px">
-                <img src="{{ publication.image }}" alt="{{ publication.title }}" style="width: 100%; max-width: 300px;"/>
+            <div style="text-align: center; margin-left: 20px; margin-bottom: 20px; margin-top: 20px">
+                <img src="{{ publication.image }}" alt="{{ publication.title }}" style="width: 75%"/>
             </div>
         {% endif %}
-    </div>
-    <div style="display: flex; align-items: flex-start; margin-top: 5px; padding-left: 35px">
         {{ publication.abstract | markdownify }}
+        <br>
     </div>
 </div>
 {% endfor %}
@@ -32,16 +33,17 @@ layout: post
         <div style="flex: 3; padding-left: 5px; text-align: justify;">
             {{ publication.author }} {{ publication.year }}. <strong>{{ publication.title }}</strong> 
             {{ publication.description }}
-            <br>
         </div>
+    </div>
+    <div style="margin-top: 10px; margin-left: 30px; text-align: justify;">
         {% if publication.image %}
-            <div style="flex: 3; padding-top: 5px; padding-left: 30px">
-                <img src="{{ publication.image }}" alt="{{ publication.title }}" style="width: 100%; max-width: 300px;"/>
+            <div style="text-align: center; margin-left: 20px; margin-bottom: 20px; margin-top: 20px">
+                <img src="{{ publication.image }}" alt="{{ publication.title }}" style="width: 75%"/>
             </div>
         {% endif %}
-    </div>
-    <div style="display: flex; align-items: flex-start; margin-top: 5px; padding-left: 35px">
         {{ publication.abstract | markdownify }}
+        <br>
+        <br>
     </div>
 </div>
 {% endfor %}

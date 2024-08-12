@@ -1,5 +1,4 @@
 - title: "Limitations of Current RAG Systems for LLMs"
-  image: /resources/img/adl.jpg
   description: "Performed a detailed analysis to understand the limitations of 
   the existing RAG systems, and identified and provided concrete examples of 
   failure cases, along with future avenues of improvement. Examples included 
@@ -11,6 +10,7 @@
   report_url: "https://github.com/sayhitosandy/RAG-Limitations-LLM/blob/main/Project_Report.pdf"
 
 - title: "Transformer-based Language Modeling and Classification"
+  image: /resources/img/transformer.png
   description: "Implemented a custom transformer encoder and feedforward 
   classifier from scratch, achieving 86.2% accuracy in political speech text 
   classification. Pretrained a GPT-like transformer decoder, achieving a 
@@ -22,6 +22,7 @@
   report_url: "https://github.com/sayhitosandy/Transformer-Speech-Classifier-LM/blob/main/Project_Report.pdf"
 
 - title: "An Overview of the Mamba State Space Model"
+  image: /resources/img/mamba.png
   description: "Investigated limitations of subquadratic-time architectures in 
   handling long sequences, focusing on the lack of content-based reasoning. 
   Performed a case study on Mamba, a novel neural network architecture 
@@ -33,6 +34,7 @@
   presentation_url: "https://github.com/sayhitosandy/Mamba_SSM/blob/main/Project_Presentation.pdf"
 
 - title: "MediMate"
+  image: /resources/img/medimate.png
   description: "Showcased enhanced BLEU and ROUGE scores through the application
   of Retrieval Augmented Generation (RAG) on OpenAI’s LLM for closed-domain 
   question answering in the field of medicine. Employed OpenAI Embeddings, 
@@ -43,6 +45,7 @@
   presentation_url: "https://github.com/shy982/Med-QnA-App/blob/main/ref/MediMate_Project_Presentation.pdf"
 
 - title: "Closed Domain Question Answering"
+  image: /resources/img/cdqa.png
   description: "Achieved enhanced precision, recall, and computational 
   efficiency by applying Vector DBMS to Retrieval Augmented Generation (RAG) on 
   OpenAI’s LLM across diverse datasets. Compared our approach with Latent 
@@ -52,6 +55,7 @@
   notion_url: "https://peridot-dance-ae4.notion.site/Closed-Domain-Question-Answering-c09ac8ace57040978d98463de5d2d58a"
 
 - title: "Two-Phase NeRF"
+  image: /resources/img/nerf.png
   description: "Accelerated NeRF reconstruction time by up to 40% through the 
   utilization of a pre-trained NeRF model, originally trained on objects from 
   the <i>ShapeNet</i> dataset, for downstream training on the target object."
@@ -70,6 +74,7 @@
   report_url: "https://github.com/sayhitosandy/Neural_Rendering_Survey/blob/main/Survey_Paper.pdf"
 
 - title: "LocalGuide"
+  image: /resources/img/localguide.png
   description: "Explored machine/deep learning regression models on the 
   <i>Google Local Reviews</i> dataset, highlighting spatiotemporal data’s 
   impact on user ratings."
@@ -85,18 +90,21 @@
   report_url: "https://github.com/sayhitosandy/Rumour_Stance_Classification/blob/master/Report.pdf"
 
 - title: "Efficient Meme Retrieval System"
+  image: /resources/img/meme.png
   description: "Built a GUI-based Search Engine that retrieves a set of memes 
   from a database based on user query."
   github_url: "https://github.com/sayhitosandy/Meme_Retrieval_System"
   presentation_url: "https://github.com/sayhitosandy/Meme_Retrieval_System/blob/master/Efficient%20Meme%20Retrieval%20System.pdf"
 
 - title: "Automatic Handwritten Flowchart Converter"
+  image: /resources/img/flowchart.png
   description: "Developed a model that constructs digital image of a 
   handwritten flowchart using image-processing techniques."
   github_url: "https://github.com/sayhitosandy/Flowchart_Converter"
   presentation_url: "https://github.com/sayhitosandy/Flowchart_Converter/blob/master/IA%20Project%20Report%20PPT.pdf"
 
 - title: "Feature-Based Image Metamorphosis"
+  image: /resources/img/deformation.png
   description: "Designed a visual animation tool that transforms one image to 
   another in a smooth fashion."
   github_url: "https://github.com/sayhitosandy/Image_Deformation"

@@ -1,0 +1,112 @@
+- title: "Limitations of Current RAG Systems for LLMs"
+  description: "Performed a detailed analysis to understand the limitations of 
+  the existing RAG systems, and identified and provided concrete examples of 
+  failure cases, along with future avenues of improvement. Examples included 
+  managing unrelated noise from external sources, handling mathematical 
+  reasoning, effectively integrating information, interpreting negative or 
+  missing statements, dealing with conflicting knowledge, and the difficulty in 
+  evaluations."
+  github_url: "https://github.com/sayhitosandy/RAG-Limitations-LLM"
+  report_url: "https://github.com/sayhitosandy/RAG-Limitations-LLM/blob/main/Project_Report.pdf"
+
+- title: "Transformer-based Language Modeling and Classification"
+  image: /resources/img/transformer.png
+  description: "Implemented a custom transformer encoder and feedforward 
+  classifier from scratch, achieving 86.2% accuracy in political speech text 
+  classification. Pretrained a GPT-like transformer decoder, achieving a 
+  language model perplexity of 149.8 (out of a vocabulary of 5755) on political 
+  speeches. Enhanced model performance by further reducing perplexity by 38.2% 
+  using ALiBi for positional encoding and by 52% using Xavier/Normal 
+  initialization techniques."
+  github_url: "https://github.com/sayhitosandy/Transformer-Speech-Classifier-LM"
+  report_url: "https://github.com/sayhitosandy/Transformer-Speech-Classifier-LM/blob/main/Project_Report.pdf"
+
+- title: "An Overview of the Mamba State Space Model"
+  image: /resources/img/mamba.png
+  description: "Investigated limitations of subquadratic-time architectures in 
+  handling long sequences, focusing on the lack of content-based reasoning. 
+  Performed a case study on Mamba, a novel neural network architecture 
+  integrating selective structured state space models (SSMs) to address this 
+  limitation. Mamba demonstrates improved performance on language processing 
+  tasks compared to existing subquadratic-time architectures."
+  github_url: "https://github.com/sayhitosandy/Mamba_SSM"
+  report_url: "https://github.com/sayhitosandy/Mamba_SSM/blob/main/Project_Report.pdf"
+  presentation_url: "https://github.com/sayhitosandy/Mamba_SSM/blob/main/Project_Presentation.pdf"
+
+- title: "MediMate"
+  image: /resources/img/medimate.png
+  description: "Showcased enhanced BLEU and ROUGE scores through the application
+  of Retrieval Augmented Generation (RAG) on OpenAI’s LLM for closed-domain 
+  question answering in the field of medicine. Employed OpenAI Embeddings, 
+  FAISS Vector DBMS, and Flask for a web app which supports multi-modal input 
+  for patient interactions."
+  github_url: "https://github.com/shy982/Med-QnA-App"
+  report_url: "https://github.com/shy982/Med-QnA-App/blob/main/ref/MediMate_Project_Report.pdf"
+  presentation_url: "https://github.com/shy982/Med-QnA-App/blob/main/ref/MediMate_Project_Presentation.pdf"
+
+- title: "Closed Domain Question Answering"
+  image: /resources/img/cdqa.png
+  description: "Achieved enhanced precision, recall, and computational 
+  efficiency by applying Vector DBMS to Retrieval Augmented Generation (RAG) on 
+  OpenAI’s LLM across diverse datasets. Compared our approach with Latent 
+  Semantic Indexing and Singular Value Decomposition, demonstrating superior 
+  performance."
+  github_url: "https://github.com/shy982/cdqa-ir"
+  notion_url: "https://peridot-dance-ae4.notion.site/Closed-Domain-Question-Answering-c09ac8ace57040978d98463de5d2d58a"
+
+- title: "Two-Phase NeRF"
+  image: /resources/img/nerf.png
+  description: "Accelerated NeRF reconstruction time by up to 40% through the 
+  utilization of a pre-trained NeRF model, originally trained on objects from 
+  the <i>ShapeNet</i> dataset, for downstream training on the target object."
+  github_url: "https://github.com/sayhitosandy/Two_Phase_NeRF"
+  report_url: "https://github.com/sayhitosandy/Two_Phase_NeRF/blob/master/NeRF_Project_Report.pdf"
+  video_url: "https://drive.google.com/file/d/1EhKgIa5kKkrdCRV-tMHIqjBYW0Bi4rND/view"
+
+- title: "Neural Rendering for 3D Reconstruction and View Synthesis"
+  description: "Explored advancements in neural rendering for 3D reconstruction 
+  and view synthesis, focusing on techniques driven by neural networks. Reviewed
+   datasets, evaluation metrics, and the evolution from classical methods to 
+  Neural Radiance Fields (NeRF). Discussed NeRF fundamentals, efficiency, sparse
+   data handling, dynamic scenes, composition, and application-specific NeRFs, 
+  with an outlook on future research directions."
+  github_url: "https://github.com/sayhitosandy/Neural_Rendering_Survey"
+  report_url: "https://github.com/sayhitosandy/Neural_Rendering_Survey/blob/main/Survey_Paper.pdf"
+
+- title: "LocalGuide"
+  image: /resources/img/localguide.png
+  description: "Explored machine/deep learning regression models on the 
+  <i>Google Local Reviews</i> dataset, highlighting spatiotemporal data’s 
+  impact on user ratings."
+  github_url: "https://github.com/sayhitosandy/Temporal-and-Spatial-Feature-Analysis"
+  report_url: "https://github.com/sayhitosandy/Temporal-and-Spatial-Feature-Analysis/blob/main/Report.pdf"
+
+- title: "Rumour Stance Classification of Tweets"
+  description: "Explored machine/deep learning classification models on the 
+  <i>SemEval-2017 Task 8</i> dataset to classify tweets based on their stance 
+  into four categories: supporting (S), denying (D), querying (Q), or 
+  commenting (C)."
+  github_url: "https://github.com/sayhitosandy/Rumour_Stance_Classification"
+  report_url: "https://github.com/sayhitosandy/Rumour_Stance_Classification/blob/master/Report.pdf"
+
+- title: "Efficient Meme Retrieval System"
+  image: /resources/img/meme.png
+  description: "Built a GUI-based Search Engine that retrieves a set of memes 
+  from a database based on user query."
+  github_url: "https://github.com/sayhitosandy/Meme_Retrieval_System"
+  presentation_url: "https://github.com/sayhitosandy/Meme_Retrieval_System/blob/master/Efficient%20Meme%20Retrieval%20System.pdf"
+
+- title: "Automatic Handwritten Flowchart Converter"
+  image: /resources/img/flowchart.png
+  description: "Developed a model that constructs digital image of a 
+  handwritten flowchart using image-processing techniques."
+  github_url: "https://github.com/sayhitosandy/Flowchart_Converter"
+  presentation_url: "https://github.com/sayhitosandy/Flowchart_Converter/blob/master/IA%20Project%20Report%20PPT.pdf"
+
+- title: "Feature-Based Image Metamorphosis"
+  image: /resources/img/deformation.png
+  description: "Designed a visual animation tool that transforms one image to 
+  another in a smooth fashion."
+  github_url: "https://github.com/sayhitosandy/Image_Deformation"
+  image_url: "https://github.com/sayhitosandy/Image_Deformation/blob/master/Final%20Submission/MultipleLines/Outputs/three_fast.gif"
+  report_url: "https://github.com/sayhitosandy/Image_Deformation/blob/master/Final%20Submission/ProjectEvaluation_final_group10_Report.pdf"

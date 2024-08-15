@@ -6,8 +6,8 @@ layout: post
 <div style="margin-bottom: 20px;">
     <div style="display: flex; align-items: flex-start; margin-top: 10px;">
         <div style="flex: 0 0 30px; text-align: right; padding-right: 5px;">{{ forloop.index }}.</div>
-        <div style="flex: 3; padding-left: 5px; text-align: justify;">
-            {{ publication.author }} {{ publication.year }}. <strong>{{ publication.title }}</strong> 
+        <div style="flex: 3; padding-left: 5px">
+            {{ publication.author }} {{ publication.year }}. <strong>{{ publication.title }}</strong>. 
             {{ publication.description }}
             <br>
         </div>
@@ -30,8 +30,8 @@ layout: post
 <div style="margin-bottom: 20px;">
     <div style="display: flex; align-items: flex-start; margin-top: 10px;">
         <div style="flex: 0 0 30px; text-align: right; padding-right: 5px;">{{ forloop.index | plus:1 }}.</div>
-        <div style="flex: 3; padding-left: 5px; text-align: justify;">
-            {{ publication.author }} {{ publication.year }}. <strong>{{ publication.title }}</strong> 
+        <div style="flex: 3; padding-left: 5px">
+            {{ publication.author }} {{ publication.year }}. <strong>{{ publication.title }}</strong>. 
             {{ publication.description }}
         </div>
     </div>

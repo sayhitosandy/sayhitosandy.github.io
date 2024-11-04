@@ -1,7 +1,15 @@
 experiences:
+  - place: Qualcomm Technologies, Inc.
+    location: San Diego, California, USA
+    time: October 2024 - Present
+    title: Machine Learning Engineer
+    category: work
+    website: https://www.qualcomm.com/
+    image: /resources/img/qualcomm.webp
+
   - place: University of California San Diego Health
     location: San Diego, California, USA
-    time: August 2024 - Present
+    time: August 2024 - October 2024
     title: Machine Learning Engineer
     category: work
     website: https://www.rgabriel.ai/
